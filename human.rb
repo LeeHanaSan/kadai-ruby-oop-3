@@ -1,5 +1,6 @@
-require "./animal.rb"
+require "./animal"
 require "./thinkable"
+
 class Human < Animal
   
   include Thinkable
